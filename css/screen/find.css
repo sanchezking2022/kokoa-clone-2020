@@ -1,0 +1,105 @@
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.find-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.find-icons__icon i {
+  font-size: 35px;
+}
+.find-icons__icon span {
+  margin-top: 18px;
+}
+.recommended-fridens {
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+  padding: 25px 0px;
+  margin: 25px 0px;
+}
+.recommended-fridens__title {
+  font-size: 14px;
+  color: var(--main-gray);
+}
+.recommended-fridens span {
+  margin: 100px 0px;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: var(--main-gray);
+}
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  color: var(--main-gray);
+  margin-bottom: 25px;
+}
+.open-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: var(--main-border);
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+}
+.open-post__title {
+  font-weight: 600;
+  margin-bottom: 7px;
+  font-size: 20px;
+}
+.open-post__hashtags {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: var(--main-gray);
+  margin-bottom: 10px;
+}
+.open-post__members img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.open-post__members {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.open-post__member-count {
+  color: var(--main-gray);
+}
+.open-post__members .divider {
+  width: 1px;
+  height: 15px;
+  background-color: var(--main-gray);
+  margin: 0px 5px;
+}
+.open-post__member-status {
+  color: #ff58bc;
+  font-weight: 500;
+}
+.open-post__photo {
+  position: relative;
+}
+.open-post__photo img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
+.open-post_heart-count {
+  background-color: var(--main-gray);
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 12px;
+}
+.open-post_heart-count span {
+  margin-left: 3px;
+}
